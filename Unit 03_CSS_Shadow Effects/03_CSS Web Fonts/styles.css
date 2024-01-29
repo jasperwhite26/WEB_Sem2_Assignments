@@ -1,0 +1,17 @@
+@font-face {
+    font-family: sansation;
+    src: url('sansation_light.woff');
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(sourcesanspro-italic-webfont.ttf);font-family: sansation;
+}
+  
+div {
+    font-family: sansation;
+}
+
+p{
+    font-family: myFirstFont;
+}
