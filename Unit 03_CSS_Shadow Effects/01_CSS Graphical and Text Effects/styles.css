@@ -1,0 +1,24 @@
+#box {
+    box-shadow: 10px 10px 5px 12px lightblue;
+}
+
+#rect {
+    box-shadow: 20px 10px;
+}
+
+#square {
+    box-shadow: 10px 10px 5px lightblue inset;
+}
+
+h1{
+    text-shadow: 2px 2px red;
+}
+
+h2{
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+h3{
+    text-shadow: 2px 2px darkblue;
+}
