@@ -1,0 +1,36 @@
+#one {
+    white-space: nowrap;
+    width: 50px;
+    border: 5px dotted red;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+#two {
+    white-space: nowrap;
+    width: 75px;
+    border: 5px solid blue;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#three{
+    white-space: nowrap;
+    width: 100px;
+    border: 1px dashed black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#four{
+    white-space: nowrap;
+    width: 200px;
+    height: 50px;
+    border: 5px solid blue;
+    overflow: hidden;
+    text-overflow: clip;
+
+}
+ #one:hover, #four:hover{
+     overflow: visible;
+ }
