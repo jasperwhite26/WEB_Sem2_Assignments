@@ -1,0 +1,18 @@
+div{
+    width: 300px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
+}
+#ex1 {
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+
+#ex2 {
+    transform: skewX(-15deg);
+
+}
+
+#ex3 {
+    transform: rotate(-50deg);
+}
