@@ -6,3 +6,4 @@ function takeSquareRoot() {
     document.getElementById("result").innerHTML = squareRoot;
 
 }
+
