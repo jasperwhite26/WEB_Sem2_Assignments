@@ -7,5 +7,6 @@ for(let i = 0; i < 10; i++){
 
 document.getElementById("unsorted").innerHTML = numbers;
 
-//YOUDO:  finish the sort and print to the sorted id
+numbers.sort(function(a, b){return a - b});
+document.getElementById("sorted").innerHTML = numbers;
 
