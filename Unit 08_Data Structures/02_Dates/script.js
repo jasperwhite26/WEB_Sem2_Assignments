@@ -40,9 +40,7 @@ function generateCalendar(year, month) {
         case 11:
             document.getElementById("month").innerHTML = "December " + year;
             break;
-        default:
-            document.getElementById("month").innerHTML = "Unknown Month";
-            break;
+
     }
 
     const calendarMap = new Map([
@@ -121,4 +119,11 @@ function generatePrevMonth(){
 
 generateCalendar(year, month);
 
-//YOUDO:  implement generateNextMonth Function
+function generateNextMonth(){
+    month++;
+    if(month === 12){
+        month = 0;
+        year++;
+    }
+    generateCalendar(year, month);
+}
