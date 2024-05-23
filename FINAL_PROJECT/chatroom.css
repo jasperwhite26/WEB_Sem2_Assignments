@@ -1,0 +1,49 @@
+body{
+    background-color: #2f2f2f;
+}
+a{
+    color: black;
+  
+}
+#invite{
+    background-color: #d0d0d0;
+    border-radius: 25px;
+}
+
+.chat{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    background-color: #A91B1B;
+    width: 20%;
+    height: 100%;
+    border-radius: 25px;
+    position: relative;
+}
+
+.chat > div {
+    font-size: x-large;
+    margin: 16px;
+    padding: 4%;
+    
+}
+#bubbles{
+    left: 500px;
+    position: absolute;
+    top: 7%;
+    width: 50%;
+    opacity: 25%;
+
+}
+
+#type{
+    float: left;
+    background-color: #d0d0d0;
+    border-color: #A91B1B;
+    border-radius: 25px;
+    position: fixed;
+    width: 79%;
+    height: 50px;
+    position: relative;
+    top: 870px
+}

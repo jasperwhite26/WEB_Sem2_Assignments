@@ -1,0 +1,53 @@
+
+body{
+    background-color: #2f2f2f;
+}
+a{
+    color: #d0d0d0;
+    text-decoration: none;
+}
+a:hover{
+    color: grey;
+}
+a:active{
+    color: #2f2f2f;
+  
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: #A91B1B;
+    width: auto;
+    height: 100px;
+    border-radius: 25px;
+    box-shadow: 5px 10px;
+
+}
+.nav-bar > div { 
+    color: #d0d0d0;
+    width: 500px;
+    margin-top: auto;
+    margin-bottom: auto;
+    float: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+#search{
+    border-radius: 20px;
+    border-color: black;
+    width: 55%;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 20px 0;
+    box-sizing: border-box;   
+    background-color: #A91B1B;
+    color: #d0d0d0;
+}
+
+h1{
+    font-size: 70px;
+    color: #d0d0d0;
+    margin-bottom: 0%;
+    margin-top: 0.%;
+}
